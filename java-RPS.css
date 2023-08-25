@@ -20,10 +20,12 @@ body {
     padding: 0px;
     background-color: var(--color-background);
 }
+
 h1 , h2{
     padding: auto;
     margin: 5px 0px 5px 0px;
 }
+
 header{
     background-color: var(--color-header);
     width: 100%;
@@ -118,17 +120,15 @@ header{
 footer {
     position: fixed;
     bottom: 0;
-    /* padding: 0% 70px 0%; */
     min-height: var(--header-height);
     background-color: var(--color-header);
     width: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    /* flex: 0 1 var(--header-height); */
 }
 
-a{
+a {
     text-decoration: none;
     padding: 8px;
     border-radius: 10px;
