@@ -58,6 +58,7 @@ function game(userChoice) {
     } else if (computerScore >=5){
         displayWinner("Sorry, the computer won.");
     }
+    console.log("Here")
 }
 
 function removeMyClass(){
